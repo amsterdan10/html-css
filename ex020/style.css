@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* 
+Pseudo-classes estão relacionadas ao estado de um elemento.
+*/
+
+div {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+
+div:hover {
+    background-color: blue;
+}
+
