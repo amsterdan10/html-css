@@ -10,3 +10,68 @@
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100%vh;
+    background-color: darkgray;
+}
+
+header {
+    background: var(--color-two);
+    color: var(--color-one);
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    /* text-transform: uppercase; */
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: var(--color-one);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: var(--color-one);
+    color: var(--color-two);
+}
+
+section.image {
+    background-color: #333333;
+    color: var(--color-one);
+}
+
+section.image > p {
+    background-color: #00000045;
+    max-width: 400px;
+}
+
+footer {
+    background-color: var(--color-two);
+    color: var(--color-one);
+    text-align: center;
+    padding: 10px;
+}
