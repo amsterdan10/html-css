@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: black url('../img/tela-home.jpg') no-repeat top center;
+    background-size: cover;
+}
