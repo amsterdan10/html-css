@@ -10,7 +10,7 @@
     
     <h1>Meu primeiro formulário</h1>
     
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="off">
        
         <p><label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome">
@@ -22,5 +22,12 @@
         <input type="submit" value="Enviar">
     </form>
 
+    <!-- 
+        Métodos de envio de informações por formulários.
+        Método GET (Padrão do form):
+        method="GET" - as informações enviadas aparecem na URL.
+        Método POST:
+        method="POST" - as informações enviadas não aparecem na URL.
+     -->
 </body>
 </html>
