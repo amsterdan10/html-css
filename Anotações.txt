@@ -20,6 +20,16 @@ type - screen / fitnees - portrait
 type - screen / fitnees - landscape
 <link rel="stylesheet" href="css/paisagem.css" media="screen and (orientation: landscape">
 
+Modo de adicionar Media Query dentro do documento CSS 
+
+/* portrait declaration */
+        @media screen and (orientation: portrait) {
+            body {
+                background-image: url('img/cev-portrait.jpg');
+                background-position: center bottom;
+            }
+        }
+
 ----------------------------------------------
 ----------------------------------------------
         
