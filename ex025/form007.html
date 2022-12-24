@@ -10,8 +10,8 @@
     <h1>Select, Datalist e Textarea</h1>
     <form action="cadastro.js" method="post">
         <label for="iest">Estado</label>
-        <select name="estado" id="iest">
-            <option value="" selected>--- Escolha ---</option> 
+        <select name="estado" id="iest" required>
+            <option value="" selected disabled>--- Escolha ---</option> 
             <optgroup label="Região Sudeste">
                 <option value="MG">Minas Gerais</option>
                 <option value="RJ">Rio de Janeiro</option>
@@ -42,7 +42,7 @@
 
         <p>
             <label for="imsg">Mensagem:</label><br>
-            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            <textarea name="msg" id="imsg" cols="30" rows="10" maxlength="400" style="resize: none;"></textarea>
         </p>
 
         <p>
