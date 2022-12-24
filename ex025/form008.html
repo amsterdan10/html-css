@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário 008</h1>
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <h2>Digite dois número de 0 à 100.</h2>
+        <p>
+            <label for="in01">Número 01:</label>
+            <input type="number" name="n01" id="in01" min="0" max="100" required oninput="isoma.innerHTML = Number(in01.value) + Number(in02.value)">
+        </p>
+        <p>
+            <label for="in02">Número 02:</label>
+            <input type="number" name="n02" id="in02" min="0" max="100" required oninput="isoma.innerHTML = Number(in01.value) + Number(in02.value)">
+        </p>
+        <p>
+            <label for="isoma">Soma:</label>
+            <output name="soma" id="isoma">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
