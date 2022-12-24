@@ -1,0 +1,25 @@
+----------------------------------------------
+----------------------------------------------
+
+Medea Queries:
+    Medea Types:
+        -- all
+        -- screen
+        -- print
+        Medea Fitnees:
+            -- portrait
+            -- landscape
+
+Ex:
+type - all
+<link rel="stylesheet" href="css/style.css" media="all">
+
+type - screen / fitnees - portrait
+<link rel="stylesheet" href="css/retrato.css" media="screen and (orientation: portrait">
+
+type - screen / fitnees - landscape
+<link rel="stylesheet" href="css/paisagem.css" media="screen and (orientation: landscape">
+
+----------------------------------------------
+----------------------------------------------
+        
