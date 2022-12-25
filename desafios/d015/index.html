@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="css/queries.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Login Natalino</title>
@@ -18,7 +20,18 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="js/login.js" method="post" autocomplete="on">
-                    
+                    <div class="campo">
+                        <span class="material-icons">person</span>
+                        <input type="email" name="login" id="i-login" placeholder="seu e-mail" autocomplete="email" required maxlength="40">
+                        <label for="i-login">Login</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="senha" id="i-senha" placeholder="sua senha" autocomplete="current-password" required maxlength="40">
+                        <label for="i-senha">Senha</label>
+                    </div>
+                    <input type="submit" value="Enviar">
+                    <a href="esqueci.html">Esqueceu sua senha? <span class="material-icons">mail</span></a>
                 </form>
             </div>
         </section>
